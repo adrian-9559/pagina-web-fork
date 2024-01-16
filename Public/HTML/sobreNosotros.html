@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AventuraViajera</title>
+
+    <!-- Enlaces a archivos de estilo CSS -->
+    <link rel="stylesheet" href="./../CSS/PLANTILLAS/cabecera.css">
+    <link rel="stylesheet" href="./../CSS/PLANTILLAS/piePagina.css">
+    <link rel="stylesheet" href="./../CSS/sobreNosotros.css">
+</head>
+<body>
+    <!-- Encabezado de la página -->
+    <header class="header">
+        <div class="child-header">
+            <!-- Logo -->
+            <div class="box-logo">
+                <a href="./../../index.html" class="link-logo">AventuraViajera</a>
+            </div>
+
+            <!-- Menú de navegación -->
+            <nav class="box-menu-navegacion" id="menu-navegacion">
+                <ul class="menu-navegacion">
+                    <li class="item-menu">
+                        <a href="./../../index.html" class="item-menu-link">Inicio</a>
+                    </li>
+                    <li class="item-menu">
+                        <a href="./sobreNosotros.html" class="item-menu-link">Sobre Nosotros</a>
+                    </li>
+                    <li class="item-menu">
+                        <a href="./servicios.html" class="item-menu-link">Servicios</a>
+                    </li>
+                    <li class="item-menu">
+                        <a href="./inicioSesion.html" class="item-menu-link">Iniciar Sesion</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Checkbox para el menú de hamburguesa en dispositivos móviles -->
+            <input type="checkbox" class="boton-menu" id="boton-menu" name="boton-menu">
+            <label for="boton-menu">
+                <section class="boton-menu-boton">
+                    <span class="lineas-menu"></span>
+                    <span class="lineas-menu"></span>
+                    <span class="lineas-menu"></span>
+                </section>
+            </label>
+        </div>
+    </header>
+
+    <!-- Contenido principal: Sobre Nosotros -->
+    <main class="about-us">
+        <!-- Encabezado de la sección -->
+        <h1>Sobre Nosotros</h1>
+        
+        <!-- Sección 1: Nuestra Historia -->
+        <section>
+            <h2>Nuestra Historia</h2>
+            <p>Somos una plataforma comprometida con ofrecer a nuestros usuarios las mejores experiencias en reservas de hoteles. Fundada en el año XXXX, nuestra misión es proporcionar un servicio confiable y fácil de usar para que nuestros clientes encuentren el alojamiento perfecto para sus viajes.</p>
+        </section>
+
+        <!-- Sección 2: Nuestro Equipo -->
+        <section>
+            <h2>Nuestro Equipo</h2>
+            <p>En nuestro equipo, contamos con profesionales altamente calificados en el sector hotelero y tecnológico. Nos esforzamos por innovar constantemente y mejorar nuestra plataforma para brindar una experiencia excepcional a nuestros usuarios.</p>
+        </section>
+
+        <!-- Sección 3: Nuestra Visión -->
+        <section>
+            <h2>Nuestra Visión</h2>
+            <p>Buscamos ser la principal opción para quienes deseen encontrar y reservar hoteles de manera sencilla, segura y conveniente. Valoramos la confianza que nuestros usuarios depositan en nosotros y trabajamos día a día para superar sus expectativas.</p>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <!-- Sección de información de contacto y redes sociales -->
+        <section class="contenedores">
+            <!-- Información de contacto -->
+            <section>
+                <article>
+                    <h3>Contacto</h3>
+                </article>
+                <article>
+                    <!-- Teléfono y correo electrónico -->
+                    <p id="telefono">Teléfono: <a href="tel:+34916235149">916 235 149</a></p>
+                    <p id="correoElectronico">Correo: <a href="mailto:contacto@AventuraViajera.es">contacto@AventuraViajera.es</a></p>
+                </article>
+            </section>
+
+            <!-- Redes sociales -->
+            <section>
+                <article>
+                    <h3>Redes Sociales</h3>
+                </article>
+                <article>
+                    <!-- Enlaces a redes sociales -->
+                    <p id="instagram"><a href="https://www.instagram.com/">Instagram</a></p>
+                    <p id="X"><a href="https://twitter.com/">X</a></p>
+                    <p id="facebook"><a href="https://www.facebook.com/">Facebook</a></p>
+                </article>
+            </section>
+
+            <!-- Enlaces a términos y condiciones y política de privacidad -->
+            <section>
+                <article>
+                    <h3>Avisos legales</h3>
+                </article>
+                <article>
+                    <!-- Enlaces a páginas de términos y condiciones y política de privacidad -->
+                    <p id="terminosCondiciones"><a href="./terminosYCondiciones.html">Términos y Condiciones</a></p>
+                    <p id="politicas"><a href="./politicaDePrivacidad.html">Política de privacidad</a></p>
+                </article>
+            </section>
+        </section>
+
+        <!-- Información de derechos de autor -->
+        <section>
+            <p>&copy; 2023 AventuraViajera. Todos los derechos reservados.</p>
+        </section>
+    </footer>
+
+    <!-- Inclusión de script JavaScript -->
+    <script src="./../JS/script.js"></script>
+</body>
+</html>

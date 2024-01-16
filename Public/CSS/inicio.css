@@ -1,0 +1,76 @@
+/*Cuerpo de Página*/
+
+/* Estilos para el elemento <main> */
+main {
+  margin: 40px; /* Márgenes alrededor del elemento <main> */
+}
+
+main > a {
+  text-decoration: none; /* Elimina el subrayado de los enlaces directos hijos de <main> */
+}
+
+/* Estilos para la clase 'precio' */
+.precio {
+  font-weight: bold; /* Peso de la fuente en negrita */
+  background-color: yellow; /* Fondo amarillo para elementos con la clase 'precio' */
+}
+
+/* Estilos para la lista de hoteles */
+.hotel-list {
+  display: flex; /* Utiliza un contenedor flexible para los elementos hijos */
+  flex-wrap: wrap; /* Permite que los elementos hijos se envuelvan a múltiples líneas */
+  gap: 20px; /* Espacio entre los elementos hijos */
+  justify-content: center; /* Centra los elementos en el contenedor horizontalmente */
+  padding: 20px; /* Relleno alrededor de la lista de hoteles */
+  background-color: #f9f9f9; /* Fondo gris claro para la lista */
+}
+
+/* Estilos para cada tarjeta de hotel */
+.hotel-card {
+  position: relative; /* Posición relativa para la tarjeta de hotel */
+  width: 300px; /* Ancho de la tarjeta de hotel */
+  background-color: #fff; /* Fondo blanco */
+  border-radius: 8px; /* Bordes redondeados */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+  padding: 20px; /* Relleno interno de la tarjeta */
+  text-align: center; /* Centra el texto horizontalmente */
+  transition: background-color 0.3s ease; /* Transición suave para cambios de fondo */
+}
+
+/* Al pasar el mouse sobre la tarjeta, cambia el fondo */
+.hotel-card:hover {
+  background-image: linear-gradient(rgb(231, 247, 255), rgba(240, 240, 240, 0.8)); /* Cambia a un degradado al pasar el mouse */
+}
+
+.hotel-card img {
+  width: 100%; /* Imagen ocupa el 100% del ancho de la tarjeta */
+  border-radius: 6px; /* Bordes redondeados para la imagen */
+  margin-bottom: 15px; /* Margen inferior para la imagen */
+}
+
+.hotel-card h2 {
+  font-size: 20px; /* Tamaño de fuente para los títulos */
+  margin-bottom: 10px; /* Margen inferior para los títulos */
+}
+
+/* Estilos para los enlaces dentro de <main> */
+main a {
+  color: #555; /* Color del texto de los enlaces */
+  margin-bottom: 15px; /* Margen inferior para los enlaces */
+}
+
+/* Estilos para los botones dentro de las tarjetas de hotel */
+.hotel-card button {
+  background-color: #007bff; /* Fondo azul para los botones */
+  color: #fff; /* Color del texto en los botones */
+  border: none; /* Sin borde */
+  padding: 8px 16px; /* Relleno interno del botón */
+  border-radius: 4px; /* Bordes redondeados del botón */
+  cursor: pointer; /* Cursor de puntero al pasar por encima */
+  transition: background-color 0.3s ease; /* Transición suave para cambios de fondo */
+}
+
+/* Al pasar el mouse sobre el botón, cambia el fondo */
+.hotel-card button:hover {
+  background-color: #0056b3; /* Cambia a un tono más oscuro al pasar el mouse */
+}

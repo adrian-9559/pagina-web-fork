@@ -1,0 +1,58 @@
+
+/*Pie de pagina*/
+footer > section{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #008591;
+    width: auto;
+  }
+  
+  footer > section > section{
+    width: 250px;
+    margin: 2% 5% 0% 5%;
+  }
+  
+  footer > section > section > article h3{
+    color: white;
+    text-decoration: underline;
+  }
+  
+  footer > section > section article p{
+    color: white;
+  }
+  
+  footer > section:last-child{
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: small;
+    color: white;
+  }
+  
+  /*Quita el estilo a los enlaces*/
+  footer a{
+    color: white;
+    text-decoration: none;
+  }
+  
+  /*Iconos redes sociales*/
+  #instagram{
+    background: url(./../../IMAGE/instagram.svg) no-repeat 90px 0px;
+  }
+  
+  #X{
+    background: url(./../../IMAGE/x-twitter.svg) no-repeat 90px 0px;
+  }
+  
+  #facebook{
+    background: url(./../../IMAGE/facebook-f.svg) no-repeat 94px 0px;
+  }
+  
+  #telefono{
+    background: url(./../../IMAGE/phone-volume-solid.svg) no-repeat 180px 0px;
+  }
+  
+  #correoElectronico{
+    background: url(./../../IMAGE/envelope-solid.svg) no-repeat 280px 0px;
+    width: 300px;
+  }

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AventuraViajera</title>
+    <link rel="stylesheet" href="./../CSS/PLANTILLAS/cabecera.css">
+    <link rel="stylesheet" href="./../CSS/PLANTILLAS/piePagina.css">
+    <link rel="stylesheet" href="./../CSS/paginaHoteles.css">
+</head>
+<body>
+    <!-- Cabecera de la página -->
+    <header class="header">
+        <div class="child-header">
+            <!-- Logo del sitio web -->
+            <div class="box-logo">
+                <a href="./../../index.html" class="link-logo">AventuraViajera</a>
+            </div>
+
+            <!-- Menú de navegación -->
+            <nav class="box-menu-navegacion" id="menu-navegacion">
+                <ul class="menu-navegacion">
+                    <li class="item-menu">
+                        <a href="./../../index.html" class="item-menu-link">Inicio</a>
+                    </li>
+                    <li class="item-menu">
+                        <a href="./sobreNosotros.html" class="item-menu-link">Sobre Nosotros</a>
+                    </li>
+                    <li class="item-menu">
+                        <a href="./servicios.html" class="item-menu-link">Servicios</a>
+                    </li>
+                    <li class="item-menu">
+                        <a href="./inicioSesion.html" class="item-menu-link">Iniciar Sesion</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Botón de menú -->
+            <input type="checkbox" class="boton-menu" id="boton-menu" name="boton-menu">
+            <label for="boton-menu">
+                <section class="boton-menu-boton">
+                    <span class="lineas-menu"></span>
+                    <span class="lineas-menu"></span>
+                    <span class="lineas-menu"></span>
+                </section>
+            </label>
+        </div>
+    </header>
+
+    <!-- Contenido principal -->
+    <main class="hotel-details">
+        <!-- Información del hotel -->
+        <section class="hotel-info">
+            <!-- Cabecera del hotel -->
+            <section class="cabecera-hotel">
+                <h1>Hotel Presidente</h1>
+                <button class="reservar">Reservar</button>
+            </section>
+
+            <!-- Galería de imágenes -->
+            <section class="gallery">
+                <!-- Imágenes de la galería -->
+                <img src="./../IMAGE/HOTELES/hotel-presidente-4s.jpg" alt="Principal" class="gallery-image current-image">
+                <img src="./../IMAGE/HOTELES/hotel-presidente-4s-habitacion.jpg" alt="Anterior" class="gallery-image previous-image">
+                <img src="./../IMAGE/HOTELES/hotel-presidente-4s (1).jpg" alt="Siguiente" class="gallery-image next-image">
+                <!-- Botones para cambiar de imagen -->
+                <button id="btn-previous" class="btn-anterior">Anterior</button>
+                <button id="btn-next" class="btn-siguiente">Siguiente</button>
+            </section>
+
+            <!-- Descripción del hotel -->
+            <section class="descripcion">
+                <h2>Descripción</h2>
+                <div class="descripcion-corta">
+                    <!-- Descripción corta del hotel -->
+                    <p>
+                        El Hotel Presidente es un lujoso establecimiento ubicado en una ubicación privilegiada, justo al lado del mar, ofreciendo a sus huéspedes vistas espectaculares y panorámicas del océano desde gran parte de sus instalaciones. Con una arquitectura moderna y elegante, este hotel es conocido por combinar la comodidad y el lujo para proporcionar una experiencia inolvidable a sus visitantes.
+                    </p>
+                </div>
+                <div class="descripcion-completa" style="display: none;">
+                    <!-- Descripción completa del hotel (oculta inicialmente) -->
+                    <p>
+                        Las habitaciones de lujo del Hotel Presidente están diseñadas con un estilo refinado y están equipadas con comodidades de primer nivel para asegurar el máximo confort de los huéspedes. <br><br>Cada habitación cuenta con una decoración sofisticada, mobiliario elegante, amplias camas, televisores de pantalla plana, acceso a internet de alta velocidad y balcones privados con impresionantes vistas al mar, permitiendo a los huéspedes relajarse mientras disfrutan del paisaje y del sonido relajante de las olas. <br><br>Este hotel ofrece una amplia gama de servicios y comodidades exclusivas. La piscina del Hotel Presidente es un oasis de tranquilidad donde los huéspedes pueden sumergirse y disfrutar de un ambiente relajante con vistas al mar. Además, cuenta con un bar en la piscina que ofrece una variedad de bebidas refrescantes y cócteles exquisitos para complementar la experiencia. <br><br>Los huéspedes pueden deleitarse con la excelente gastronomía en los restaurantes del hotel, donde se ofrecen platos gourmet preparados por chefs expertos, utilizando ingredientes frescos y locales. <br><br>El hotel también cuenta con un spa de clase mundial, donde los visitantes pueden disfrutar de tratamientos rejuvenecedores y relajantes. Además, el Hotel Presidente brinda servicios excepcionales, como conserjería las 24 horas, servicio de habitaciones, instalaciones para eventos y reuniones, y acceso directo a la playa para que los huéspedes puedan disfrutar del mar y realizar actividades acuáticas. <br><br>Con su ubicación privilegiada, instalaciones de alta gama y atención al detalle, el Hotel Presidente ofrece una experiencia única y lujosa para aquellos que buscan una estancia inolvidable junto al mar.
+                    </p>
+                </div>
+                <!-- Botón para expandir la descripción -->
+                <button id="verMasBtn">Ver más</button>
+            </section>
+
+            <!-- Información adicional del hotel -->
+            <p class="contacto">Contacto: 615 65 38 15</p>
+            <p class="precio">Precio por noche: <i class="dinero">89 €</i></p>
+
+            <!-- Sección de opiniones -->
+            <section class="opiniones">
+                <h2>Opiniones</h2>
+                <div class="opinions">
+                    <!-- Opiniones de los huéspedes -->
+                    <div class="opinion">
+                        <p>"¡Experiencia increíble en el Hotel Presidente! El personal fue amable y servicial en todo momento. Las habitaciones eran cómodas y limpias, y la vista desde la habitación era impresionante. ¡Definitivamente regresaré en mi próximo viaje!"</p>
+                    </div>
+                    <div class="opinion">
+                        <p>"Pasé unos días maravillosos en el Hotel Presidente. Las instalaciones son excelentes y bien cuidadas. La piscina y las áreas comunes eran relajantes y tranquilas. El restaurante del hotel ofrecía una deliciosa variedad de platos. ¡Altamente recomendado para una estadía relajante!"</p>
+                    </div>
+                </div>
+                <!-- Formulario para agregar opiniones -->
+                <h2>Añadir Opinión</h2>
+                <form id="opinion-form">
+                    <textarea name="opinion" placeholder="Escribe tu opinión aquí"></textarea>
+                    <input type="submit" value="Enviar opinión">
+                </form>
+            </section>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer>
+        <!-- Secciones de contacto, redes sociales y avisos legales -->
+        <section class="contenedores">
+            <section>
+                <!-- Sección de contacto -->
+                <article>
+                    <h3>Contacto</h3>
+                </article>
+                <article>
+                    <p id="telefono">Teléfono: <a href="tel:+34916235149">916 235 149</a></p>
+                    <p id="correoElectronico">Correo: <a href="mailto:contacto@AventuraViajera.es">contacto@AventuraViajera.es</a></p>
+                </article>
+            </section>
+            <section>
+                <!-- Sección de redes sociales -->
+                <article>
+                    <h3>Redes Sociales</h3>
+                </article>
+                <article>
+                    <p id="instagram"><a href="https://www.instagram.com/">Instagram</a></p>
+                    <p id="X"><a href="https://twitter.com/">X</a></p>
+                    <p id="facebook"><a href="https://www.facebook.com/">Facebook</a></p>
+                </article>
+            </section>
+            <section>
+                <!-- Sección de avisos legales -->
+                <article>
+                    <h3>Avisos legales</h3>
+                </article>
+                <article>
+                    <p id="terminosCondiciones"><a href="./terminosYCondiciones.html">Términos y Condiciones</a></p>
+                    <p id="politicas"><a href="./politicaDePrivacidad.html">Política de privacidad</a></p>
+                </article>
+            </section>
+        </section>
+        <!-- Derechos de autor -->
+        <section>
+            <p>&copy; 2023 AventuraViajera. Todos los derechos reservados.</p>
+        </section>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="./../JS/ampliarDescipcion.js"></script>
+    <script src="./../JS/galeriaImagenes.js"></script>
+    <script src="./../JS/script.js"></script>
+</body>
+</html>

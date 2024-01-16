@@ -1,0 +1,197 @@
+/*Cabecera*/
+.cabecera-hotel {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.cabecera-hotel h1 {
+    font-size: 30px;
+    flex: 1; /* Ocupa el espacio restante */
+    margin: 0;
+}
+
+.reservar {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 4px 4px 15px gray;
+}
+
+/*Galeria de Imagenes*/
+.gallery {
+    position: relative;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+    overflow: hidden;
+}
+
+.gallery-image {
+    width: 700px; /* Tamaño de la imagen principal */
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    transition: opacity 0.5s ease-in-out;
+    position: relative;
+    z-index: 2; /* Imagen principal encima */
+}
+
+.previous-image,
+.next-image {
+    width: 350px; /* Tamaño de las imágenes laterales */
+    max-width: 100%;
+    height: 430px;
+    opacity: 0.7; /* Opacidad reducida */
+    position: absolute;
+    top: 50%;
+    transform: translateY(-56%);
+    transition: opacity 0.5s ease-in-out;
+    z-index: 1; /* Imágenes laterales detrás */
+}
+
+.previous-image {
+    left: -200px; /* Ajusta la posición izquierda */
+}
+
+.next-image {
+    right: -200px; /* Ajusta la posición derecha */
+}
+
+
+button {
+    padding: 8px 16px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+button:hover {
+    background-color: #0056b3;
+}
+
+.descripcion {
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 15px;
+}
+
+.descripcion-corta {
+    max-height: 150px;
+    overflow: hidden;
+}
+
+.descripcion-completa {
+    display: none;
+}
+
+#verMasBtn {
+    display: block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#verMasBtn:hover {
+    background-color: #2980b9;
+}
+
+.contacto{
+    margin-left: 40px;
+}
+
+.precio{
+    margin-left: 40px;
+}
+
+.dinero{
+    font-weight: bold;
+    background-color: yellow;
+}
+
+/* Estilos para la información del hotel */
+.hotel-info {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+/* Estilos opiniones */
+.opiniones {
+    font-family: Arial, sans-serif;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.opiniones h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+/* Estilos para las opiniones */
+.opinions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.opinion {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.opinion p {
+    margin: 0;
+}
+
+/* Estilos para el formulario de añadir opinión */
+#opinion-form {
+    margin-top: 20px;
+}
+
+#opinion-form textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    margin-bottom: 10px;
+}
+
+#opinion-form input[type="submit"] {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#opinion-form input[type="submit"]:hover {
+    background-color: #2980b9;
+}
