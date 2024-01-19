@@ -11,7 +11,7 @@ Lo que se quiere conseguir en este proyecto es la contribución entre varios rol
  - Diseño adaptable a diferentes dispositivos.
 
 ## Imagenes del proyecto
-![Image text](https://github.com/Public/IMAGE/paginaWeb.png)
+![Image text]([https://github.com/Public/IMAGE/paginaWeb.png](https://github.com/adrian-9559/pagina-web-fork/blob/main/Public/IMAGE/paginaWeb.png))
 
 ## Servicios necesarios
  Necesitaremos los siguientes servicios:
