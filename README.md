@@ -10,7 +10,7 @@ Lo que se quiere conseguir en este proyecto es la contribución entre varios rol
  - Funcionalidades de busqueda, carrito, perfiles de usuario, roles de administración y usuarios.
  - Diseño adaptable a diferentes dispositivos.
 
-## Imagenes del proyecto
+## Imagen del proyecto
 ![home page](Public/IMAGE/paginaWeb.png)
 
 ## Servicios necesarios
