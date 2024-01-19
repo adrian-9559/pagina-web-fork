@@ -12,8 +12,10 @@
 h1 {
     text-align: center;
     margin-bottom: 20px;
+    color: blueviolet;
 }
 
 h2 {
     margin-top: 30px;
+    color: blue;
 }

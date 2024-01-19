@@ -61,7 +61,7 @@ main a {
 
 /* Estilos para los botones dentro de las tarjetas de hotel */
 .hotel-card button {
-  background-color: #007bff; /* Fondo azul para los botones */
+  background-color: #5ce241; /* Fondo azul para los botones */
   color: #fff; /* Color del texto en los botones */
   border: none; /* Sin borde */
   padding: 8px 16px; /* Relleno interno del botón */
