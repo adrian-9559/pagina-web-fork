@@ -3,6 +3,7 @@
 /* Estilos para el elemento <main> */
 main {
   margin: 40px; /* Márgenes alrededor del elemento <main> */
+  background-color: pink;
 }
 
 main > a {
